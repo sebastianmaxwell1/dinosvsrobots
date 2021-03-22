@@ -4,9 +4,6 @@ class Weapons:
         self.energy = ''
         self.weapon = ''
 
-
-
-
     def dino_stats(self):
         if self.dino_weapon == 1:
             self.dino_health = 60

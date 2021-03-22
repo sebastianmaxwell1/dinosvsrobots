@@ -1,5 +1,5 @@
 from Robots import Robot
-
+from Dinos import Dinosaurs
 if __name__ == '__main__':
     my_battle_robot = Robot()
     my_battle_robot.create_battle_name()
