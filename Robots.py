@@ -1,6 +1,6 @@
 class Robot:
     def __init__(self):
-        self.robots_battle_name = ''
+        self.robots_battle_name = ['Battle Robot']
         self.ground_air_weapons = False
         self.troop_health = ''
         self.power_level = ''
@@ -10,7 +10,7 @@ class Robot:
         self.robots_battle_name = response
 
     def created_robot_name(self):
-        print(f'Your robots name is {self.robots_battle_name}')
+        response = input(f'Your robots name is {self.robots_battle_name}')
 
     def robot_styles(self):
         print("Ground troop(Ground,strong armor,less fire power) or Aerial troop(Aerial,weak armor,heavy fire power)")
@@ -26,10 +26,8 @@ class Robot:
         if self.ground_air_weapons == 1:
             self.troop_health = 70
             self.power_level = 60
-            print('Your Ground Troop statistics')
+            print(f'Your Ground Troop starting health is {self.troop_health}, Power level is {self.power_level}')
         elif self.ground_air_weapons == 2:
             self.troop_health = 35
             self.power_level = 90
-            print('Your Aerial Troop statistics')
-
-0
+            print(f' Your Aerial Troop starting health is {self.troop_health}, Power level is {self.power_level}')

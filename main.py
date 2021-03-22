@@ -9,8 +9,3 @@ if __name__ == '__main__':
     my_battle_robot.robot_stats()
 
 
-
-
-
-
-
