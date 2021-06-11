@@ -1,4 +1,4 @@
-from dino import Dino
+from dinos import Dino
 
 
 class Herd:
